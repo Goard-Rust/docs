@@ -1,12 +1,14 @@
 @startuml
 left to right direction
-actor "Utilisateur" as user
+actor "Administrateur" as admin
 rectangle "Dashboard Rust/Egui" {
-  usecase "S'identifier" as UC1
-  usecase "Visualiser l'ensemble des ressources" as UC2
-  usecase "Rechercher une ressource" as UC3
+  usecase "Authentification" as UC1
+  usecase "Consulter le planning des tâches (Gantt)" as UC2
+  usecase "Rechercher une tâche" as UC3
+  usecase "Consulter les détails d'une tâche" as UC4
 }
-user --> UC1
-user --> UC2
-user --> UC3
+admin --> UC1
+admin --> UC2
+admin --> UC3
+admin --> UC4
 @enduml
