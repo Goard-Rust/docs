@@ -6,7 +6,7 @@ Ce dossier contient les éléments de conception du projet.
 
 Les diagrammes UML ont été réalisés à l'aide de **PlantUML**.
 
-- [Cas d'utilisation](https://github.com/info5-groupe-9-dashboard-rust/docs/blob/main/Conception/UML/use_case.puml)
+- Cas d'utilisation ([PlantUML](https://github.com/info5-groupe-9-dashboard-rust/docs/blob/main/Conception/UML/Use_Case/use_case.puml)) ([PNG](https://github.com/info5-groupe-9-dashboard-rust/docs/blob/main/Conception/UML/Use_Case/use_case.png))
 
 #### Instructions pour visualiser les diagrammes :
 1. Copiez le lien du fichier `.puml` (ex. `use_case.puml`).
