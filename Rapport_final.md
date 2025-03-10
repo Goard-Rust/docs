@@ -107,6 +107,45 @@ Notre dashboard s'interface avec OAR via une instance de OAR via des requêtes, 
 
 ## Architecture technique <a id="archi"></a>
 
+Notre application suit l'architecture Modèle-Vue-Contrôleur (MVC), un patron de conception qui sépare les préoccupations de l'application en trois composants distincts:
+
+### Architecture MVC
+![Architecture MVC du Dashboard OAR](./Conception/UML/Class%20Diagram/Diagrammes%20UML%20-%20Diagramme%20de%20classe%20simplifié.png)
+*Figure 1: Diagramme de classes simplifié illustrant l'architecture MVC de notre application*
+
+#### 1. Modèle
+
+Le **modèle** représente les **données** et la **logique métier** de l'application:
+- Gestion des **jobs OAR** et leurs **états**
+- Stockage des informations sur les **ressources** du cluster
+- Gestion des données de **configuration** et des **paramètres utilisateur**
+- Communication en **SSH** avec l'instance OAR pour récupérer les données
+- **Traitement** et **transformation** des données (filtrage, tri, etc.)
+
+Ce composant est **indépendant** de l'interface utilisateur et encapsule toute la logique de récupération et manipulation des données.
+
+#### 2. Vue
+
+La **vue** est responsable de **l'affichage des données** à l'utilisateur:
+- **Diagramme de Gantt** interactif utilisant Egui et basé Puffin
+- **Tableau de bord** détaillées sur la liste des jobs visualisés
+- **Filtres** et contrôles d'interface
+- **Rendu graphique** de l'état des ressources
+- **Menu** de navigation
+- Page **d'authentification** prévue en cas de besoin
+
+La vue ne contient aucune logique métier et se concentre uniquement sur la **présentation des données**.
+
+#### 3. Contrôleur
+
+Le **contrôleur** fait le lien entre le modèle et la vue:
+- **Intercepte** les actions utilisateur provenant de l'interface
+- **Met à jour** le modèle en conséquence
+- Déclenche le **rafraîchissement** de la vue avec les nouvelles données
+- Gère la **logique de navigation** et les **interactions**
+
+Cette séparation nous permet de maintenir un code **modulaire**, facilement **testable**, et de faire évoluer chaque composant **indépendamment**.
+
 ## Réalisation technique <a id="réalisation"></a>
 
 ## Gestion de projet <a id="gestion"></a>
