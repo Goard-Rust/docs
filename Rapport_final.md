@@ -2,17 +2,51 @@
 <p align="center">Rémi DEL MEDICO - Romain MIRAS - Alexandre ARLE - Amaury GOGUILLOT</p>
 
 ## Table des matières
-1. [Rappel du sujet](#rappel)
-2. [Technologies employées](#technos)
-3. [Architecture technique](#archi)
-4. [Réalisation technique](#réalisation)
-5. [Gestion de projet](#gestion)
-6. [Outils](#outils)
-7. [Métriques logicielles](#métriques)
-8. [Conclusion](#conclusion)
-9. [Annexes](#annexes)
 
-## Rappel du sujet <a id="rappel"></a>
+- [Table des matières](#table-des-matières)
+- [Rappel du sujet](#rappel-du-sujet)
+  - [Contexte](#contexte)
+  - [Cahier des charges](#cahier-des-charges)
+- [Technologies employées](#technologies-employées)
+  - [Rust](#rust)
+  - [Cargo](#cargo)
+  - [Egui](#egui)
+  - [Puffin](#puffin)
+  - [OAR](#oar)
+- [Architecture technique](#architecture-technique)
+  - [Architecture MVC](#architecture-mvc)
+    - [1. Modèle](#1-modèle)
+    - [2. Vue](#2-vue)
+    - [3. Contrôleur](#3-contrôleur)
+- [Réalisation technique](#réalisation-technique)
+  - [Communication avec OAR](#communication-avec-oar)
+  - [Diagramme de Gantt](#diagramme-de-gantt)
+  - [Tableau de bord détaillé](#tableau-de-bord-détaillé)
+  - [Fenêtre de détails des jobs](#fenêtre-de-détails-des-jobs)
+  - [Filtrage et recherche avancés](#filtrage-et-recherche-avancés)
+  - [Interface utilisateur adaptée](#interface-utilisateur-adaptée)
+- [Gestion de projet](#gestion-de-projet)
+- [Outils](#outils)
+  - [Gestion de projet et collaboration](#gestion-de-projet-et-collaboration)
+    - [GitHub](#github)
+    - [Discord](#discord)
+  - [Documentation](#documentation)
+    - [Diagrammes UML](#diagrammes-uml)
+  - [Environnement de développement](#environnement-de-développement)
+    - [Visual Studio Code](#visual-studio-code)
+- [Métriques logicielles](#métriques-logicielles)
+  - [Statistiques globales](#statistiques-globales)
+  - [Distribution des langages](#distribution-des-langages)
+  - [Contribution des développeurs](#contribution-des-développeurs)
+    - [En nombre de lignes de code](#en-nombre-de-lignes-de-code)
+    - [En nombre de commits](#en-nombre-de-commits)
+  - [Notes additionnelles](#notes-additionnelles)
+- [Conclusion](#conclusion)
+- [Annexes](#annexes)
+- [Glossaire](#glossaire)
+
+
+## Rappel du sujet
 
 ### Contexte
 [OAR](https://oar.imag.fr/) est un gestionnaire de tâches et de ressources utilisé dans les environnements HPC (High Performance Computing) pour orchestrer et gérer efficacement les ressources de calcul d'un cluster. Développé par l'équipe [DATAMOVE](https://team.inria.fr/datamove/), équipe de recherche commune entre le laboratoire [INRIA](https://www.inria.fr/fr) et le [LIG](https://www.liglab.fr/fr) (Laboratoire d'Informatique de Grenoble), il est largement utilisé dans le milieu académique et de la recherche. Cependant, malgré ses fonctionnalités avancées, peu d'outils interactifs en temps réel existent pour visualiser et administrer les ressources gérées par OAR.
@@ -46,7 +80,7 @@ Au cours de la première semaine de projet, nous avons rédigé un [cahier des c
     - Documentation technique et manuel utilisateur
     - Code source documenté sous GitHub
 
-## Technologies employées <a id="technos"></a>
+## Technologies employées
 
 ### Rust
 
@@ -105,7 +139,7 @@ Son intégration avec Egui nous a fourni un outil précieux pour maintenir les p
 
 Notre dashboard s'interface avec OAR via une instance de OAR via des requêtes, permettant une visualisation en quasi temps réel de l'état du cluster et une meilleure compréhension de son utilisation pour les administrateurs système.
 
-## Architecture technique <a id="archi"></a>
+## Architecture technique
 
 Notre application suit l'architecture Modèle-Vue-Contrôleur (MVC), un patron de conception qui sépare les préoccupations de l'application en trois composants distincts:
 
@@ -146,7 +180,7 @@ Le **contrôleur** fait le lien entre le modèle et la vue:
 
 Cette séparation nous permet de maintenir un code **modulaire**, facilement **testable**, et de faire évoluer chaque composant **indépendamment**.
 
-## Réalisation technique <a id="réalisation"></a>
+## Réalisation technique
 
 ### Communication avec OAR
 
@@ -241,9 +275,9 @@ L'interface utilisateur a été conçue pour s'adapter aux différents contextes
 ![Page d'option utilisateur](./screenshots/option.png)
 *Figure 6: Page d'options utilisateur pour personnaliser l'interface*
 
-## Gestion de projet <a id="gestion"></a>
+## Gestion de projet
 
-## Outils <a id="outils"></a>
+## Outils
 
 ### Gestion de projet et collaboration
 
@@ -293,7 +327,7 @@ VS Code a été notre IDE de prédilection, configuré avec une extension spéci
 
 Cette extension a considérablement amélioré notre productivité en offrant des fonctionnalités d'IDE complètes pour le développement Rust, permettant une meilleure expérience de développement pour les membres de l'équipe.
 
-## Métriques logicielles <a id="métriques"></a>
+## Métriques logicielles
 
 ### Statistiques globales
 
@@ -333,13 +367,11 @@ Cette extension a considérablement amélioré notre productivité en offrant de
 ### Notes additionnelles
 Ces métriques reflètent l'état du projet au 10 mars 2025 et sont susceptibles d'évoluer.
 
-## Conclusion <a id="conclusion"></a>
+## Conclusion
 
-## Annexes <a id="annexes"></a>
+## Annexes
 
 ## Glossaire
-
-### Glossaire
 
 | Terme | Définition |
 |-------|------------|
