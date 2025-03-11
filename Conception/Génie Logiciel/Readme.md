@@ -1,8 +1,8 @@
-# 🔧 Diagrammes de Génie Logiciel
+# Diagrammes de Génie Logiciel
 
 Ce dossier contient tous les diagrammes liés à la conception en génie logiciel du projet Dashboard Rust/Egui.
 
-## 📊 Diagrammes disponibles
+## Diagrammes disponibles
 
 ### Diagramme de Contexte
 ![Diagramme de Contexte](./Génie%20Logiciel-Diagramme%20de%20Contexte.png)  

@@ -244,6 +244,54 @@ L'interface utilisateur a été conçue pour s'adapter aux différents contextes
 
 ## Outils <a id="outils"></a>
 
+### Gestion de projet et collaboration
+
+#### GitHub
+
+Nous avons choisi GitHub comme plateforme de gestion du code source :
+
+- **Repositories** : Organisation du code et de la documentation dans des dépôts dédiés ([app](https://github.com/info5-groupe-9-dashboard-rust/app) et [docs](https://github.com/info5-groupe-9-dashboard-rust/docs))
+- **Issues** : Suivi des tâches, bugs et améliorations avec système d'assignation
+- **Pull Requests** : Révision de code et intégration des fonctionnalités
+- **Projects** : Tableau Kanban pour visualiser l'avancement global du projet
+
+GitHub nous a permis de maintenir un flux de travail structuré et de garder une traçabilité complète des modifications et des décisions prises au cours du développement.
+
+#### Discord
+
+Discord a servi de hub de communication pour notre équipe :
+
+- **Canaux thématiques** : Séparation des discussions concernant (général, ressources, questions, todo)
+- **Partage de fichiers** : Échange rapide de code, captures d'écran et documents
+
+Cet outil a facilité la communication pour notre équipe.
+
+### Documentation
+
+#### Diagrammes UML
+
+Pour la conception et la documentation technique, nous avons utilisé des diagrammes UML :
+
+- **Diagramme de contexte** : Illustre le système dans son contexte d'utilisation et ses interactions avec les acteurs externes
+- **Vue de haut niveau** : Architecture générale et composants principaux
+- **Vues détaillées** : Détaille la structure des différents composants
+- **Vue système** : Présente une vue d'ensemble du système et ses interactions avec l'environnement extérieur.
+- **Diagrammes de cas d'utilisation** : Fonctionnalités et intéractions utilisateur
+- **Diagrammes de classes** : Structure et relations entre les composants
+- **Diagrammes de séquence** : Flux d'interactions entre les modules
+
+Ces représentations visuelles ont été essentielles pour clarifier l'architecture et faciliter la communication technique entre les membres de l'équipe.
+
+### Environnement de développement
+
+#### Visual Studio Code
+
+VS Code a été notre IDE de prédilection, configuré avec une extension spécifique pour Rust :
+
+- **rust-analyzer** : Support avancé pour le langage Rust avec autocomplétion intelligente, vérification d'erreurs en temps réel et navigation de code
+
+Cette extension a considérablement amélioré notre productivité en offrant des fonctionnalités d'IDE complètes pour le développement Rust, permettant une meilleure expérience de développement pour les membres de l'équipe.
+
 ## Métriques logicielles <a id="métriques"></a>
 
 ### Statistiques globales
