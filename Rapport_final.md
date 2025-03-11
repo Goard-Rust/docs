@@ -47,6 +47,9 @@
     - [En nombre de commits](#en-nombre-de-commits)
   - [Notes additionnelles](#notes-additionnelles)
 - [Conclusion](#conclusion)
+  - [Résultats Obtenus](#Résultats-Obtenus)
+  - [Améliorations et Évolutions Futures](#Améliorations-et-Évolutions-Futures)
+  - [Conclusion](#Conclusion)
 - [Annexes](#annexes)
 - [Glossaire](#glossaire)
 
@@ -418,6 +421,31 @@ Cette extension a considérablement amélioré notre productivité en offrant de
 Ces métriques reflètent l'état du projet au 10 mars 2025 et sont susceptibles d'évoluer.
 
 ## Conclusion
+### Résultats Obtenus
+Au terme du projet, nous avons livré une application fonctionnelle respectant les principales exigences du cahier des charges. Parmi les résultats concrets :
+
+- Un tableau de bord réactif avec un diagramme de Gantt interactif affichant l’état des jobs en temps réel
+- Une interface ergonomique permettant une navigation fluide et intuitive
+- Une intégration réussie avec OAR via SSH et JSON
+- Une gestion avancée des filtres pour affiner la visualisation des tâches et des ressources
+- Un code Rust robuste et documenté garantissant la maintenabilité et la performance
+- Une version web (WebAssembly) expérimentale pour offrir plus de flexibilité d’utilisation
+
+### Améliorations et Évolutions Futures
+Le projet ouvre la voie à plusieurs évolutions intéressantes :
+
+- Amélioration du mode WebAssembly pour une meilleure compatibilité et performance
+- Personnalisation avancée de l’interface pour adapter l'affichage aux préférences utilisateur
+- Prise en charge d’autres gestionnaires de tâches pour étendre l’usage au-delà d’OAR
+- Ajout de statistiques et d’analyses pour aider à optimiser l’utilisation du cluster
+- Éventuellement ajout de la gestion des jobs directement via l'application en plus du monitoring
+
+### Conclusion
+Ce projet a permis de moderniser l’administration des clusters OAR en fournissant un outil graphique performant, ergonomique et évolutif. En utilisant Rust, Egui et Puffin, nous avons pu garantir sécurité, fluidité et maintenabilité.
+
+L’application développée est un premier jalon pour une meilleure gestion des ressources HPC et peut être enrichie à l’avenir par la communauté open source ou des équipes académiques.
+
+Nous sommes fier de notre réalisation !
 
 ## Annexes
 
