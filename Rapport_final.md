@@ -261,6 +261,7 @@ Pour faciliter la gestion d'un grand nombre de jobs, nous avons implémenté un 
 - **Filtrage par utilisateur**: Visualisation des jobs par propriétaire
 - **Filtrage par état**: Sélection des jobs selon leur état (waiting, running, terminated, etc.)
 - **Filtrage par ressources**: Sélection selon les clusters et hosts où s'exécutent les jobs
+- **Filtrage par date** Sélection des jobs selon leur date de d'exécution (le gantt lui-même permet d'ajuster ce filtre)
 
 Ces filtres peuvent être combinés pour affiner progressivement la visualisation selon les besoins de l'utilisateur.
 
