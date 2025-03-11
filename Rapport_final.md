@@ -26,6 +26,11 @@
   - [Filtrage et recherche avancés](#filtrage-et-recherche-avancés)
   - [Interface utilisateur adaptée](#interface-utilisateur-adaptée)
 - [Gestion de projet](#gestion-de-projet)
+  - [Organisation de l'équipe](#Organisation-de-l'équipe)
+  - [Méthodologie Agile & Sprints](#Méthodologie-Agile-&-Sprints)
+  - [Gestion des Tâches avec un Système de Tickets](#Gestion-des-Tâches-avec-un-Système-de-Tickets)
+  - [Gestion de projet et collaboration](#Gestion-de-projet-et-collaboration)
+  - [Suivi du Projet et Communication](#Suivi-du-Projet-et-Communication)
 - [Outils](#outils)
   - [Gestion de projet et collaboration](#gestion-de-projet-et-collaboration)
     - [GitHub](#github)
@@ -42,6 +47,9 @@
     - [En nombre de commits](#en-nombre-de-commits)
   - [Notes additionnelles](#notes-additionnelles)
 - [Conclusion](#conclusion)
+  - [Résultats Obtenus](#Résultats-Obtenus)
+  - [Améliorations et Évolutions Futures](#Améliorations-et-Évolutions-Futures)
+  - [Conclusion](#Conclusion)
 - [Annexes](#annexes)
 - [Glossaire](#glossaire)
 
@@ -254,10 +262,9 @@ Cette fenêtre fournit une vue complète et détaillée de chaque job, permettan
 Pour faciliter la gestion d'un grand nombre de jobs, nous avons implémenté un système de filtrage multi-critères:
 
 - **Filtrage par utilisateur**: Visualisation des jobs par propriétaire
-- **Filtrage par état**: Sélection des jobs selon leur état (waiting, running, terminated, error)
-- **Filtrage par ressources**: Sélection selon le nombre de cœurs ou nœuds utilisés
-- **Filtrage temporel**: Focus sur une période spécifique
-- **Recherche textuelle**: Recherche dans les propriétés et descriptions des jobs
+- **Filtrage par état**: Sélection des jobs selon leur état (waiting, running, terminated, etc.)
+- **Filtrage par ressources**: Sélection selon les clusters et hosts où s'exécutent les jobs
+- **Filtrage par date**: Sélection des jobs selon leur date de d'exécution (le gantt lui-même permet d'ajuster ce filtre)
 
 Ces filtres peuvent être combinés pour affiner progressivement la visualisation selon les besoins de l'utilisateur.
 
@@ -282,6 +289,46 @@ L'interface utilisateur a été conçue pour s'adapter aux différents contextes
 *Figure 6: Page d'options utilisateur pour personnaliser l'interface*
 
 ## Gestion de projet
+
+### Organisation de l'équipe
+Notre équipe de développement était composée de quatre membres, chacun ayant un rôle bien défini :
+
+- DEL MEDICO Rémi - **Chef de projet** / **Développeur** : responsable du suivi global du projet, de la répartition des tâches, des communications avec le porteur du projet et dans une moindre mesure du même rôle que les développeurs.
+- ARLE Alexandre - **Git Master** / **Développeur** : en charge de la mise en place et du maintient du répertoire Git. Une fois le répertoire configurer transfert sur un rôle de développeur.
+- GOGUILLOT Amaury - **Développeur** : chargés de la conception et de l’implémentation des fonctionnalités ainsi que de la correction des bugs.
+- MIRAS Romain - **Développeur** : chargés de la conception et de l’implémentation des fonctionnalités ainsi que de la correction des bugs.
+
+### Méthodologie Agile & Sprints
+![Gantt sprints](./screenshots/sprints.png)
+*Figure 7: Gantt pour les phases de développement*
+
+Nous avons adopté une approche Agile, en organisant notre travail sous forme de sprints (cf. Figure 7). Ainsi il y avait 5 phases avec 2 phases dédié au développement. Les 2 premières phases pour la mise en place du projet avec l'analyse du projet puis sa conception. Suite à cette étape de préparation, nous avons attaqué la partie développement avec dans un premier temps un focus sur la création des interfaces et des fonctionnalités de base puis lors d'une seconde phase de développement, un focus sur la correction des bugs et l'amélioration des fonctionnalités. Enfin lors de la dernière phase nous avons réaliser tous le travail de documentation.
+
+### Gestion des Tâches avec un Système de Tickets
+Chaque élément à développer ou à corriger était représenté par un ticket, qui pouvait correspondre à :
+
+- Des fonctionnalités à implémenter,
+- Des bugs à corriger,
+- D’autres issues techniques à traiter.
+
+Les tickets étaient priorisés et attribués aux développeurs, permettant une répartition claire des tâches et un suivi efficace de l'avancement du projet.
+
+### Gestion de projet et collaboration
+Pour assurer une bonne coordination et un suivi régulier du projet, nous avions mis en place un rituel hebdomadaire avec notre porteur de projet :
+
+- Soit une réunion physique, favorisant une discussion plus approfondie sur les avancées, les éventuels obstacles et les décisions stratégiques à prendre.
+- Soit un échange par e-mail, permettant de faire un point sur l’avancement et de lever d’éventuelles questions.
+
+Ce suivi régulier nous a permis d’adapter notre travail aux attentes du porteur de projet et de garantir une bonne transparence tout au long du développement.
+
+### Suivi du Projet et Communication
+Le développement suivait un workflow précis basé sur Git :
+
+- Un développeur créait une branche à partir de dev et y implémentait sa fonctionnalité.
+- Une Pull Request (PR) était ensuite ouverte vers la branche dev.
+- Généralement, le chef de projet se chargeait de la revue de code, ce qui permettait d’avoir une vision globale du projet et d’assurer la qualité du code.
+- Après validation, la PR était fusionnée dans dev.
+- Une fois que la branche dev avait atteind un niveaux de développement suffisant, elle pouvait être intégrée à la branche main pour la mise en production d'une nouvelle version.
 
 ## Outils
 
@@ -374,6 +421,31 @@ Cette extension a considérablement amélioré notre productivité en offrant de
 Ces métriques reflètent l'état du projet au 10 mars 2025 et sont susceptibles d'évoluer.
 
 ## Conclusion
+### Résultats Obtenus
+Au terme du projet, nous avons livré une application fonctionnelle respectant les principales exigences du cahier des charges. Parmi les résultats concrets :
+
+- Un tableau de bord réactif avec un diagramme de Gantt interactif affichant l’état des jobs en temps réel
+- Une interface ergonomique permettant une navigation fluide et intuitive
+- Une intégration réussie avec OAR via SSH et JSON
+- Une gestion avancée des filtres pour affiner la visualisation des tâches et des ressources
+- Un code Rust robuste et documenté garantissant la maintenabilité et la performance
+- Une version web (WebAssembly) expérimentale pour offrir plus de flexibilité d’utilisation
+
+### Améliorations et Évolutions Futures
+Le projet ouvre la voie à plusieurs évolutions intéressantes :
+
+- Amélioration du mode WebAssembly pour une meilleure compatibilité et performance
+- Personnalisation avancée de l’interface pour adapter l'affichage aux préférences utilisateur
+- Prise en charge d’autres gestionnaires de tâches pour étendre l’usage au-delà d’OAR
+- Ajout de statistiques et d’analyses pour aider à optimiser l’utilisation du cluster
+- Éventuellement ajout de la gestion des jobs directement via l'application en plus du monitoring
+
+### Conclusion
+Ce projet a permis de moderniser l’administration des clusters OAR en fournissant un outil graphique performant, ergonomique et évolutif. En utilisant Rust, Egui et Puffin, nous avons pu garantir sécurité, fluidité et maintenabilité.
+
+L’application développée est un premier jalon pour une meilleure gestion des ressources HPC et peut être enrichie à l’avenir par la communauté open source ou des équipes académiques.
+
+Nous sommes fier de notre réalisation !
 
 ## Annexes
 
