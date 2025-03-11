@@ -448,14 +448,14 @@ L’application développée est un premier jalon pour une meilleure gestion des
 Nous sommes fier de notre réalisation !
 
 ## Bibliographie
-[Description du projet](https://air.imag.fr/index.php/Dashboard_en_technologie_egui/rust_pour_plateforme_HPC)
-[Documentation Rust](https://doc.rust-lang.org/book/)
-[Documentation OAR Rest API](https://oar.imag.fr/docs/2.5/user/api.html)
-[Documentation Grid'5000](https://api.grid5000.fr/doc/stable/)
-[Outil gantt statique existant](https://intranet.grid5000.fr/oar/Grenoble/drawgantt-svg/)
-[Github egui](https://github.com/emilk/egui)
-[Github puffin](https://github.com/EmbarkStudios/puffin)
-[Documentation eframe](https://docs.rs/eframe/latest/eframe/)
+- [Description du projet](https://air.imag.fr/index.php/Dashboard_en_technologie_egui/rust_pour_plateforme_HPC)  
+- [Documentation Rust](https://doc.rust-lang.org/book/)  
+- [Documentation OAR Rest API](https://oar.imag.fr/docs/2.5/user/api.html)  
+- [Documentation Grid'5000](https://api.grid5000.fr/doc/stable/)  
+- [Outil gantt statique existant](https://intranet.grid5000.fr/oar/Grenoble/drawgantt-svg/)  
+- [Github egui](https://github.com/emilk/egui)  
+- [Github puffin](https://github.com/EmbarkStudios/puffin)  
+- [Documentation eframe](https://docs.rs/eframe/latest/eframe/)  
 
 
 ## Glossaire
