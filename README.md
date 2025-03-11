@@ -1,9 +1,30 @@
-# Dépôt de Documentation  
+# Dépôt de Documentation
 
-Bienvenue dans le dépôt de documentation du projet **Goard**. Ce dépôt contient tous les documents liés à la documentation et à la conception du projet.  
+Bienvenue dans le dépôt de documentation du projet **Goard**. Ce dépôt contient tous les documents liés à la documentation et à la conception du projet.
 
-## Contenu  
-- [Documentation](https://github.com/info5-groupe-9-dashboard-rust/docs/tree/main/Documentation) : Détail des fonctionnalités. 
-- [Conception](https://github.com/info5-groupe-9-dashboard-rust/docs/tree/main/Conception) : Diagrammes, spécifications et choix d'architecture du projet.  
-- [Cahier des charges](https://github.com/info5-groupe-9-dashboard-rust/docs/blob/main/Cahier_des_charges.pdf) : Document détaillant les objectifs, les spécifications et les contraintes du projet
-- [Rapport final](https://github.com/info5-groupe-9-dashboard-rust/docs/blob/main/Rapport_final.md) : Résumé des résultats et conclusions du projet
+## Architecture du dépôt
+
+Voici la structure du dépôt et une brève description de chaque dossier et fichier :
+
+```
+/home/rmiras/Documents/docRust/
+├── Documentation/
+│   ├── ...
+├── Conception/
+│   ├── ...
+├── Cahier_des_charges.pdf
+├── Rapport_final.pdf
+├── README.md
+└── LICENSE
+```
+
+- **Documentation/** : Contient les documents techniques et les guides d'utilisation du projet.
+
+- **Conception/** : Contient les diagrammes UML et les documents de conception en génie logiciel.
+- [**Cahier_des_charges.pdf**](./Cahier_des_charges.pdf) : Document détaillant les objectifs, les spécifications et les contraintes du projet.
+- [**Rapport_final.pdf**](./Rapport_final.pdf) : Résumé des résultats et conclusions du projet.
+
+## Documents Techniques
+
+- [**Manuel d'installation**](./Documentation/Manuel%20d'installation%20.md) : Instructions pour installer et exécuter le projet.
+- [**Technologies Employées**](./Documentation/Technologies%20Employées.md) : Présentation des technologies utilisées dans le projet.
