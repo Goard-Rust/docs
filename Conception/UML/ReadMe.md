@@ -1,8 +1,8 @@
-# 📊 Diagrammes UML
+# Diagrammes UML
 
 Ce dossier contient tous les diagrammes UML liés à la modélisation du projet Dashboard Rust/Egui.
 
-## 🎯 Diagrammes disponibles
+## Diagrammes disponibles
 
 ### Diagramme de Classes Simplifié
 ![Diagramme de Classes](./Class%20Diagram/Diagrammes%20UML%20-%20Diagramme%20de%20classe%20simplifié.png)  
