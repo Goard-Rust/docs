@@ -236,6 +236,7 @@ L'interface utilisateur a été conçue pour s'adapter aux différents contextes
 - **Persistance des préférences**: Sauvegarde automatique des paramètres utilisateur
 - **Intégréation i18n**: Prise en charge de plusieurs langues pour une portée internationale
 - **Personnalisation de la taille de la police**: Ajustement de la taille du texte pour une meilleure lisibilité
+- **Multi-plateforme**: Support de Linux, macOS, Windows et WebAssembly (Via trunk)
 
 ![Page d'option utilisateur](./screenshots/option.png)
 *Figure 6: Page d'options utilisateur pour personnaliser l'interface*
@@ -335,3 +336,26 @@ Ces métriques reflètent l'état du projet au 10 mars 2025 et sont susceptibles
 ## Conclusion <a id="conclusion"></a>
 
 ## Annexes <a id="annexes"></a>
+
+## Glossaire
+
+### Glossaire
+
+| Terme | Définition |
+|-------|------------|
+| **API REST** | Interface de programmation applicative utilisant des méthodes HTTP standard qui permet la communication entre systèmes distribués |
+| **Cargo** | Le gestionnaire de paquets et système de build officiel pour Rust |
+| **Cluster** | Ensemble d'ordinateurs connectés travaillant ensemble comme un système unifié |
+| **CPU Core (Cœur)** | Unité de traitement indépendante au sein d'un processeur capable d'exécuter des instructions |
+| **Dashboard** | Interface graphique présentant des informations clés et des métriques de manière synthétique |
+| **Egui** | Bibliothèque d'interface utilisateur immédiate (immediate mode GUI) pour Rust |
+| **Gantt (Diagramme)** | Outil de planification illustrant la relation entre les activités et le temps |
+| **HPC** | High Performance Computing - Calcul haute performance utilisant des supercalculateurs pour résoudre des problèmes complexes |
+| **Job** | Tâche de calcul soumise à OAR pour être exécutée sur le cluster |
+| **MVC** | Modèle-Vue-Contrôleur, patron de conception séparant la logique métier, l'interface et le contrôle |
+| **Nœud** | Machine individuelle (serveur) au sein d'un cluster |
+| **OAR** | Gestionnaire de ressources et d'ordonnancement de tâches pour clusters HPC |
+| **Puffin** | Profileur de performance open source pour les applications Rust |
+| **Rust** | Langage de programmation système axé sur la sécurité, la concurrence et les performances |
+| **SSH** | Secure Shell, protocole réseau sécurisé pour l'accès à distance à des systèmes informatiques |
+| **WebAssembly** | Format de bytecode permettant l'exécution de code compilé dans les navigateurs web |
