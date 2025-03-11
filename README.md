@@ -27,4 +27,5 @@ Voici la structure du dépôt et une brève description de chaque dossier et fic
 
 - [**Manuel d'installation**](./Documentation/Manuel%20d'installation%20.md) : Instructions pour installer et exécuter le projet.
 - [**Technologies Employées**](./Documentation/Technologies%20Employées.md) : Présentation des technologies utilisées dans le projet.
-- [**Diagrammes UML**](./Conception/UML/ReadMe.md) : Diagrammes UML de conception du projet.
+- [**Diagrammes UML**](./Conception/UML/README.md) : Diagrammes UML de conception du projet.
+- [**Documents Génie Logiciel**](./Conception/Génie%20Logiciel/README.md) : Documents de conception en génie logiciel.
