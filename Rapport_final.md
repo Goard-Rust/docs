@@ -145,6 +145,7 @@ Notre application suit l'architecture Modèle-Vue-Contrôleur (MVC), un patron d
 
 ### Architecture MVC
 ![Architecture MVC du Dashboard OAR](./Conception/UML/Class%20Diagram/Diagrammes%20UML%20-%20Diagramme%20de%20classe%20simplifié.png)
+
 *Figure 1: Diagramme de classes simplifié illustrant l'architecture MVC de notre application*
 
 #### 1. Modèle
@@ -204,6 +205,7 @@ Cette approche nous permet de manipuler efficacement les données OAR et d'offri
 Le cœur visuel de notre application est un diagramme de Gantt interactif basé sur le framework Puffin, adapté pour visualiser les jobs OAR:
 
 ![Diagramme de Gantt](./screenshots/gantt.png)
+
 *Figure 2: Diagramme de Gantt montrant l'allocation des ressources*
 
 Caractéristiques principales:
@@ -221,6 +223,7 @@ Ce diagramme permet aux administrateurs de cluster de visualiser rapidement l'é
 En complément du diagramme de Gantt, nous avons développé un tableau de bord détaillé fournissant une vue approfondie des jobs et ressources:
 
 ![Tableau de bord détaillé](./screenshots/dashboard.png)
+
 *Figure 3: Tableau de bord montrant les détails des jobs sélectionnés*
 
 Ce tableau de bord comprend:
@@ -236,6 +239,7 @@ Cette vue permet une analyse fine des jobs en cours, une gestion efficace des re
 Pour une compréhension approfondie des jobs, nous avons développé une fenêtre de détails affichant toutes les propriétés et métadonnées associées à un job:
 
 ![Détails des jobs](./screenshots/details.png)
+
 *Figure 4: Fenêtre de détails des jobs avec toutes les informations pertinentes*
 
 Cette fenêtre affiche:
@@ -258,6 +262,7 @@ Pour faciliter la gestion d'un grand nombre de jobs, nous avons implémenté un 
 Ces filtres peuvent être combinés pour affiner progressivement la visualisation selon les besoins de l'utilisateur.
 
 ![Filtres avancés](./screenshots/filters.png)
+
 *Figure 5: Interface de filtrage avancé pour les jobs OAR*
 
 ### Interface utilisateur adaptée
@@ -273,6 +278,7 @@ L'interface utilisateur a été conçue pour s'adapter aux différents contextes
 - **Multi-plateforme**: Support de Linux, macOS, Windows et WebAssembly (Via trunk)
 
 ![Page d'option utilisateur](./screenshots/option.png)
+
 *Figure 6: Page d'options utilisateur pour personnaliser l'interface*
 
 ## Gestion de projet
