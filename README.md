@@ -22,7 +22,7 @@ Voici la structure du dépôt et une brève description de chaque dossier et fic
 
 - **Conception/** : Contient les diagrammes UML et les documents de conception en génie logiciel.
 - [**Cahier_des_charges.pdf**](./Cahier_des_charges.pdf) : Document détaillant les objectifs, les spécifications et les contraintes du projet.
-- [**Rapport_final.pdf**](./Rapport_final.pdf) : Résumé des résultats et conclusions du projet.
+- [**Rapport_final.pdf**](Rapport_final.md) : Résumé des résultats et conclusions du projet.
 
 ## Documents Techniques
 
