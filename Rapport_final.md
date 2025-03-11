@@ -254,10 +254,8 @@ Cette fenêtre fournit une vue complète et détaillée de chaque job, permettan
 Pour faciliter la gestion d'un grand nombre de jobs, nous avons implémenté un système de filtrage multi-critères:
 
 - **Filtrage par utilisateur**: Visualisation des jobs par propriétaire
-- **Filtrage par état**: Sélection des jobs selon leur état (waiting, running, terminated, error)
-- **Filtrage par ressources**: Sélection selon le nombre de cœurs ou nœuds utilisés
-- **Filtrage temporel**: Focus sur une période spécifique
-- **Recherche textuelle**: Recherche dans les propriétés et descriptions des jobs
+- **Filtrage par état**: Sélection des jobs selon leur état (waiting, running, terminated, etc.)
+- **Filtrage par ressources**: Sélection selon les clusters et hosts où s'exécutent les jobs
 
 Ces filtres peuvent être combinés pour affiner progressivement la visualisation selon les besoins de l'utilisateur.
 
