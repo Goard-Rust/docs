@@ -148,6 +148,98 @@ Cette séparation nous permet de maintenir un code **modulaire**, facilement **t
 
 ## Réalisation technique <a id="réalisation"></a>
 
+### Communication avec OAR
+
+Notre dashboard interagit avec une instance OAR sur une plateforme spécifique en **SSH** via la commande `oarstat` pour récupérer les informations nécessaires à la visualisation des jobs et des ressources:
+
+```bash
+oarstat -J --gantt [--start-time START] [--stop-time STOP]
+```
+
+Cette commande génère des données au format JSON que nous traitons ensuite dans notre application:
+
+- **Parser JSON**: Utilise la bibliothèque `serde` pour désérialiser les données JSON en structures Rust
+- **Modèles de données**: Structures personnalisées représentant fidèlement les jobs et ressources
+- **Cache intelligent**: Optimise les performances en évitant les appels répétés à `oarstat`
+- **Gestion d'erreurs robuste**: Traitement des cas particuliers et récupération en cas d'échecs
+
+Cette approche nous permet de manipuler efficacement les données OAR et d'offrir une interface réactive même avec un grand volume d'informations.
+
+### Diagramme de Gantt
+
+Le cœur visuel de notre application est un diagramme de Gantt interactif basé sur le framework Puffin, adapté pour visualiser les jobs OAR:
+
+![Diagramme de Gantt](./screenshots/gantt.png)
+*Figure 2: Diagramme de Gantt montrant l'allocation des ressources*
+
+Caractéristiques principales:
+- **Navigation temporelle**: Zoom et déplacement fluides sur l'axe temporel
+- **Sélection interactive**: Focus sur un job spécifique pour plus de détails
+- **Code couleur intuitif**: Représentation visuelle différente pour chaque job basée sur son id
+- **Regroupement des ressources**: Affichage hiérarchique des nœuds et cœurs
+- **Performance optimisée**: Rendu efficace même avec des milliers de jobs
+- **Aggrégation des données**: Plusieurs niveaux d'aggréation sont disponibles pour une vue synthétique
+
+Ce diagramme permet aux administrateurs de cluster de visualiser rapidement l'état du système, d'identifier les problèmes potentiels et de planifier efficacement les tâches.
+
+### Tableau de bord détaillé
+
+En complément du diagramme de Gantt, nous avons développé un tableau de bord détaillé fournissant une vue approfondie des jobs et ressources:
+
+![Tableau de bord détaillé](./screenshots/dashboard.png)
+*Figure 3: Tableau de bord montrant les détails des jobs sélectionnés*
+
+Ce tableau de bord comprend:
+- **Vue liste des jobs**: Affichage tabulaire avec tri par colonne et pagination avec des colonnes personnalisables
+- **Informations détaillées**: Possibilité d'ouvrir une fenêtre de détails pour un job
+- **Métriques en temps réel**: Le nombre de jobs dans chaque état est mis à jour en temps réel ainsi que les périodes d'activités visualisées
+- **Graphiques du système**: Graphiques interactifs pour suivre l'évolution des états des jobs
+
+Cette vue permet une analyse fine des jobs en cours, une gestion efficace des ressources et une prise de décision éclairée pour l'administration du cluster.
+
+### Fenêtre de détails des jobs
+
+Pour une compréhension approfondie des jobs, nous avons développé une fenêtre de détails affichant toutes les propriétés et métadonnées associées à un job:
+
+![Détails des jobs](./screenshots/details.png)
+*Figure 4: Fenêtre de détails des jobs avec toutes les informations pertinentes*
+
+Cette fenêtre affiche:
+- **Propriétés du job**: ID, propriétaire, état, messages, etc.
+- **Historique des temporelles**: Dates de soumission, démarrage, fin, etc.
+- **Resources associées**: Nombre de cœurs, nœuds, cluster, etc.
+
+Cette fenêtre fournit une vue complète et détaillée de chaque job, permettant une analyse approfondie et une gestion efficace des tâches.
+
+### Filtrage et recherche avancés
+
+Pour faciliter la gestion d'un grand nombre de jobs, nous avons implémenté un système de filtrage multi-critères:
+
+- **Filtrage par utilisateur**: Visualisation des jobs par propriétaire
+- **Filtrage par état**: Sélection des jobs selon leur état (waiting, running, terminated, error)
+- **Filtrage par ressources**: Sélection selon le nombre de cœurs ou nœuds utilisés
+- **Filtrage temporel**: Focus sur une période spécifique
+- **Recherche textuelle**: Recherche dans les propriétés et descriptions des jobs
+
+Ces filtres peuvent être combinés pour affiner progressivement la visualisation selon les besoins de l'utilisateur.
+
+![Filtres avancés](./screenshots/filters.png)
+*Figure 5: Interface de filtrage avancé pour les jobs OAR*
+
+### Interface utilisateur adaptée
+
+L'interface utilisateur a été conçue pour s'adapter aux différents contextes d'utilisation:
+
+- **Mise en page adaptative**: Organisation dynamique des panneaux selon l'espace disponible
+- **Mode compact/étendu**: Basculement facile entre différents niveaux de détail
+- **Thèmes clair/sombre**: Adaptation aux préférences visuelles et conditions d'éclairage
+- **Persistance des préférences**: Sauvegarde automatique des paramètres utilisateur
+- **Intégréation i18n**: Prise en charge de plusieurs langues pour une portée internationale
+- **Personnalisation de la taille de la police**: Ajustement de la taille du texte pour une meilleure lisibilité
+
+![Page d'option utilisateur](./screenshots/option.png)
+*Figure 6: Page d'options utilisateur pour personnaliser l'interface*
+
 ## Gestion de projet <a id="gestion"></a>
 
 ## Outils <a id="outils"></a>
