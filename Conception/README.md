@@ -1,20 +1,32 @@
-# 🛠️ Conception  
+# 🛠️ Conception
 
-Ce dossier contient les éléments de conception du projet.  
+Ce dossier contient les éléments de conception du projet.
 
-## Diagrammes Use case UML
+## 📊 Diagrammes UML
 
-Les diagrammes Use case UML ont été réalisés à l'aide de **PlantUML**.
+### Diagrammes Use Case
 
-- Cas d'utilisation ([PlantUML](https://github.com/info5-groupe-9-dashboard-rust/docs/blob/main/Conception/UML/Use_Case/use_case.puml)) ([PNG](https://github.com/info5-groupe-9-dashboard-rust/docs/blob/main/Conception/UML/Use_Case/use_case.png))
+Les diagrammes Use Case UML ont été réalisés avec **PlantUML** :
 
-#### Instructions pour visualiser les diagrammes :
-1. Copiez le lien du fichier `.puml` (ex. `use_case.puml`).
-2. Allez sur le site [PlantUML Online Server](http://www.plantuml.com/plantuml).
-3. Collez le contenu du fichier ou le lien vers le fichier `.puml` pour générer et visualiser le diagramme.
+- [📝 Fichier PlantUML](https://github.com/info5-groupe-9-dashboard-rust/docs/blob/main/Conception/UML/Use_Case/use_case.puml)
+- [🖼️ Aperçu PNG](https://github.com/info5-groupe-9-dashboard-rust/docs/blob/main/Conception/UML/Use_Case/use_case.png)
 
-## Autres diagrammes UML
+#### 🔍 Visualisation des diagrammes
+1. Copiez le lien du fichier `.puml`
+2. Rendez-vous sur [PlantUML Online Server](http://www.plantuml.com/plantuml)
+3. Collez le contenu ou l'URL pour générer le diagramme
 
-Les autres diagrammes UML ont été réalisés à l'aide de **draw.io** dont : 
-- [Diagramme de classe](./UML/Class%20Diagram/Diagrammes%20UML%20-%20Diagramme%20de%20classe%20simplifié.png) simplifié permettant de visualiser l'architecture MVC du projet
-- Diagramme de classe détaillé d'un job
+## 🎨 Autres diagrammes
+
+Les autres diagrammes ont été conçus avec **draw.io**
+
+## 📚 Navigation
+
+Pour faciliter l'exploration du projet, voici les liens vers les différentes sections :
+
+| Section | Description |
+|---------|-------------|
+| [📐 Partie UML](./UML/ReadMe.md) | Diagrammes UML détaillés |
+| [⚙️ Génie Logiciel](./Génie%20Logiciel/Readme.md) | Diagrammes de génie logiciel |
+
+Chaque section contient des explications détaillées sur les diagrammes correspondants.

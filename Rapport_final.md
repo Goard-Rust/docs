@@ -29,7 +29,7 @@ L'objectif de ce projet est de développer une interface utilisateur moderne, in
 Au cours de la première semaine de projet, nous avons rédigé un [cahier des charges](https://github.com/info5-groupe-9-dashboard-rust/docs/blob/main/Cahier_des_charges.pdf) en collaboration avec notre porteur de projet, Monsieur Olivier Richard, enseignant-chercheur à l'UGA-INP et membre du projet OAR. Nous avons ainsi défini les besoins suivants :
 
 1. **Fonctionnalités essentielles** :
-    - Visualisation des jobs et de leur état en temps réel dans un      diagramme de Gantt intéractif
+    - Visualisation des jobs et de leur état en temps réel dans un      diagramme de Gantt interactif
     - Filtrage des jobs par utilisateur, état, ressources utilisées
     - Affichage détaillé des propriétés d'un job sélectionné
     - Navigation temporelle dans le calendrier d'exécution
@@ -103,7 +103,7 @@ Son intégration avec Egui nous a fourni un outil précieux pour maintenir les p
 - **Visualiser la topologie** : Représentation graphique de l'architecture du cluster
 - **Interagir avec le système** : Soumission de requêtes et gestion des tâches via l'API
 
-Notre dashboard s'interface avec OAR via une instance de OAR via des requêtes, permettant une visualisation en casi temps réel de l'état du cluster et une meilleure compréhension de son utilisation pour les administrateurs système.
+Notre dashboard s'interface avec OAR via une instance de OAR via des requêtes, permettant une visualisation en quasi temps réel de l'état du cluster et une meilleure compréhension de son utilisation pour les administrateurs système.
 
 ## Architecture technique <a id="archi"></a>
 
