@@ -25,10 +25,10 @@ Voici la structure du dépôt et une brève description de chaque dossier et fic
 
 ## Documents de rendus
 
-- [**Audit de mi-parcours**](https://github.com/Goard-Rust/docs/blob/main/Documents_de_rendus/Audit%20mi-parcours.pdf) : Présentation réalisé pour l'audit de mi-parcours
-- [**Flyer**](https://github.com/Goard-Rust/docs/blob/main/Documents_de_rendus/Flyer.pdf) : Flyer en francais sur notre projet
-- [**Pitch**](https://github.com/Goard-Rust/docs/blob/main/Documents_de_rendus/Pitch%20Rust%20Dashboard%20for%20OAR.pdf) : Les slides de notre pitch en anglais
-- [**Rapport final**](https://github.com/Goard-Rust/docs/blob/main/Documents_de_rendus/Rapport_final.md) : Résumé des résultats et conclusions du projet.
+- [**Audit de mi-parcours**](https://github.com/Goard-Rust/docs/blob/main/Documents_de_rendu/Audit%20mi-parcours.pdf) : Présentation réalisé pour l'audit de mi-parcours
+- [**Flyer**](https://github.com/Goard-Rust/docs/blob/main/Documents_de_rendu/Flyer.pdf) : Flyer en francais sur notre projet
+- [**Pitch**](https://github.com/Goard-Rust/docs/blob/main/Documents_de_rendu/Pitch%20Rust%20Dashboard%20for%20OAR.pdf) : Les slides de notre pitch en anglais
+- [**Rapport final**](https://github.com/Goard-Rust/docs/blob/main/Documents_de_rendu/Rapport_final.md) : Résumé des résultats et conclusions du projet.
 - **Présentation final** : A venir
 
 ## Documents Techniques
