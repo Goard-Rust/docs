@@ -1,4 +1,4 @@
-<h1 align="center">Rapport final - Dashboard en Rust pour OAR</h1>
+<h1 align="center">Rapport final - Dashboard en technologie egui/rust pour plateforme HPC</h1>
 <p align="center">Rémi DEL MEDICO - Romain MIRAS - Alexandre ARLE - Amaury GOGUILLOT</p>
 
 ## Table des matières
@@ -71,7 +71,7 @@ L'objectif de ce projet est de développer une interface utilisateur moderne, in
 Au cours de la première semaine de projet, nous avons rédigé un [cahier des charges](https://github.com/info5-groupe-9-dashboard-rust/docs/blob/main/Cahier_des_charges.pdf) en collaboration avec notre porteur de projet, Monsieur Olivier Richard, enseignant-chercheur à l'UGA-INP et membre du projet OAR. Nous avons ainsi défini les besoins suivants :
 
 1. **Fonctionnalités essentielles** :
-    - Visualisation des jobs et de leur état en temps réel dans un      diagramme de Gantt interactif
+    - Visualisation des jobs et de leur état en temps réel dans une vue Gantt interactive
     - Filtrage des jobs par utilisateur, état, ressources utilisées
     - Affichage détaillé des propriétés d'un job sélectionné
     - Navigation temporelle dans le calendrier d'exécution
