@@ -222,7 +222,7 @@ Caractéristiques principales:
 - **Code couleur intuitif**: Représentation visuelle différente pour chaque job basée sur son id
 - **Regroupement des ressources**: Affichage hiérarchique des nœuds et cœurs
 - **Performance optimisée**: Rendu efficace même avec des milliers de jobs
-- **Aggrégation des données**: Plusieurs niveaux d'aggréation sont disponibles pour une vue synthétique
+- **Agrégation des données**: Plusieurs niveaux d'aggréation sont disponibles pour une vue synthétique
 
 Ce diagramme permet aux administrateurs de cluster de visualiser rapidement l'état du système, d'identifier les problèmes potentiels et de planifier efficacement les tâches.
 
