@@ -13,7 +13,7 @@ Ce document est associé au diagramme de cas d'utilisation suivant :
 1. L’administrateur accède à l’interface de connexion.
 2. Il saisit ses identifiants (nom d’utilisateur et mot de passe).
 3. Le système vérifie les informations d’authentification.
-4. Si les informations sont correctes, l’administrateur est redirigé vers le tableau de bord.
+4. Si les informations sont correctes, l’administrateur est redirigé vers l'interface Gantt.
 5. En cas d’échec, un message d’erreur est affiché, et il peut réessayer.
 
 ---
@@ -33,22 +33,23 @@ Ce document est associé au diagramme de cas d'utilisation suivant :
 ## 3. Rechercher une tâche (UC3)
 **Acteur** : Administrateur\
 **Préconditions** : L’administrateur est authentifié.\
-**Postconditions** : La tâche recherchée est trouvée et affichée si elle existe.
+**Postconditions** : La tâche recherchée est affichée dans la vue Dashboard et Gantt si elle existe.
 
 ### Description :
-1. L’administrateur accède à la barre de recherche des tâches.
-2. Il saisit un mot-clé, un identifiant de tâche ou un critère spécifique.
-3. Le système effectue une recherche et affiche les résultats correspondants.
-4. L’administrateur peut sélectionner une tâche parmi les résultats.
+1. L’administrateur accède à la fenêtre de filtrage en cliquant sur le bouton `Filtres`.
+2. L'administrateur sélectionne des options de filtrages selon le critère choisi (owner, state, cluster, host).
+3. L'administrateur clique sur le bouton `Appliquer`.
+4. Le système effectue un filtrage et affiche les résultats (jobs) correspondants à la fois dans la vue Dashboard et Gantt.
 
 ---
 
 ## 4. Consulter les détails d’une tâche (UC4)
 **Acteur** : Administrateur\
-**Préconditions** : L’administrateur est authentifié et a trouvé une tâche via la recherche ou le planning Gantt.\
+**Préconditions** : L’administrateur est authentifié et a trouvé une tâche via la recherche, le dashboard ou le planning Gantt.\
 **Postconditions** : L’administrateur a consulté les informations complètes d’une tâche.
 
 ### Description :
-1. L’administrateur sélectionne une tâche spécifique.
-2. Le système affiche les informations détaillées de la tâche.
-3. L’administrateur peut consulter ces détails et revenir à l’affichage précédent.
+1. L’administrateur sélectionne une tâche spécifique dans l'interface Dashboard ou Gantt.
+2. Le système affiche les informations détaillées de la tâche sélectionnée dans une nouvelle fenêtre.
+3. L’administrateur peut consulter ces détails tout en gardant oeil sur l'interface Dashboard ou Gantt.
+4. L'administrateur peut fermer cette fenêtre.
