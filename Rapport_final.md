@@ -252,7 +252,7 @@ Pour une compréhension approfondie des jobs, nous avons développé une fenêtr
 
 Cette fenêtre affiche:
 - **Propriétés du job**: ID, propriétaire, état, messages, etc.
-- **Historique des temporelles**: Dates de soumission, démarrage, fin, etc.
+- **Informations temporelles**: Dates de soumission, démarrage, fin, etc.
 - **Resources associées**: Nombre de cœurs, nœuds, cluster, etc.
 
 Cette fenêtre fournit une vue complète et détaillée de chaque job, permettant une analyse approfondie et une gestion efficace des tâches.
