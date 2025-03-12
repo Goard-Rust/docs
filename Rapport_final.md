@@ -26,13 +26,13 @@
   - [Filtrage et recherche avancés](#filtrage-et-recherche-avancés)
   - [Interface utilisateur adaptée](#interface-utilisateur-adaptée)
 - [Gestion de projet](#gestion-de-projet)
-  - [Organisation de l'équipe](#Organisation-de-l'équipe)
-  - [Méthodologie Agile & Sprints](#Méthodologie-Agile-&-Sprints)
-  - [Gestion des Tâches avec un Système de Tickets](#Gestion-des-Tâches-avec-un-Système-de-Tickets)
-  - [Gestion de projet et collaboration](#Gestion-de-projet-et-collaboration)
-  - [Suivi du Projet et Communication](#Suivi-du-Projet-et-Communication)
-- [Outils](#outils)
+  - [Organisation de l'équipe](#organisation-de-léquipe)
+  - [Méthodologie Agile \& Sprints](#méthodologie-agile--sprints)
+  - [Gestion des Tâches avec un Système de Tickets](#gestion-des-tâches-avec-un-système-de-tickets)
   - [Gestion de projet et collaboration](#gestion-de-projet-et-collaboration)
+  - [Suivi du Projet et Communication](#suivi-du-projet-et-communication)
+- [Outils](#outils)
+  - [Gestion de projet et collaboration](#gestion-de-projet-et-collaboration-1)
     - [GitHub](#github)
     - [Discord](#discord)
   - [Documentation](#documentation)
@@ -47,9 +47,9 @@
     - [En nombre de commits](#en-nombre-de-commits)
   - [Notes additionnelles](#notes-additionnelles)
 - [Conclusion](#conclusion)
-  - [Résultats Obtenus](#Résultats-Obtenus)
-  - [Améliorations et Évolutions Futures](#Améliorations-et-Évolutions-Futures)
-  - [Conclusion](#Conclusion)
+  - [Résultats Obtenus](#résultats-obtenus)
+  - [Améliorations et Évolutions Futures](#améliorations-et-évolutions-futures)
+  - [Conclusion](#conclusion-1)
 - [Bibliographie](#bibliographie)
 - [Glossaire](#glossaire)
 
@@ -283,6 +283,7 @@ L'interface utilisateur a été conçue pour s'adapter aux différents contextes
 - **Intégréation i18n**: Prise en charge de plusieurs langues pour une portée internationale
 - **Personnalisation de la taille de la police**: Ajustement de la taille du texte pour une meilleure lisibilité
 - **Multi-plateforme**: Support de Linux, macOS, Windows et WebAssembly (Via trunk)
+- **Mockup de données pour la version Web**: Possibilité de tester l'interface sans connexion à un serveur OAR avec des données fictives
 
 ![Page d'option utilisateur](./screenshots/option.png)
 
