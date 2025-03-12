@@ -18,7 +18,7 @@
     - [1. Modèle](#1-modèle)
     - [2. Vue](#2-vue)
     - [3. Contrôleur](#3-contrôleur)
-- [Réalisation technique](#réalisation-technique)
+- [Réalisations techniques](#réalisations-techniques)
   - [Communication avec OAR](#communication-avec-oar)
   - [Diagramme de Gantt](#diagramme-de-gantt)
   - [Tableau de bord détaillé](#tableau-de-bord-détaillé)
@@ -189,7 +189,7 @@ Le **contrôleur** fait le lien entre le modèle et la vue:
 
 Cette séparation nous permet de maintenir un code **modulaire**, facilement **testable**, et de faire évoluer chaque composant **indépendamment**.
 
-## Réalisation technique
+## Réalisations techniques
 
 ### Communication avec OAR
 
