@@ -40,4 +40,4 @@ Ce dossier contient tous les diagrammes UML liés à la modélisation du projet 
 
 ## Edition des diagrammes 
 
-Les diagrammes ont été réalisés avec l'outil [drawio](https://app.diagrams.net/). Vous pouvez les éditer en important le fichier `.drawio` ce trouvant à la base de ce dossier.
+Les diagrammes ont été réalisés avec l'outil [drawio](https://app.diagrams.net/). Vous pouvez les éditer en important le fichier `.drawio` se trouvant à la base de ce dossier.
