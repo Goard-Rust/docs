@@ -114,7 +114,7 @@ OAR est un gestionnaire de ressources open source largement utilisé pour la pla
 #### **5.3. Gestion des dépendances**
 
 * Utilisation de **Cargo** pour gérer les bibliothèques comme `eframe`, `egui` et `puffin`.  
-* Automatisation des tests et des builds avec des commandes comme `cargo test` et `cargo run`.
+* Automatisation des tests et des builds avec des commandes comme `cargo test` et `cargo-tarpaulin`.
 
 #### **5.4. Centralisation du code**
 
