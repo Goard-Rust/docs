@@ -7,7 +7,7 @@ Bienvenue dans le dépôt de documentation du projet **Goard**. Ce dépôt conti
 Voici la structure du dépôt et une brève description de chaque dossier et fichier :
 
 ```
-/home/rmiras/Documents/docRust/
+/docs/
 ├── Documentation/
 │   ├── ...
 ├── Conception/
