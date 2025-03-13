@@ -29,7 +29,7 @@ Voici la structure du dépôt et une brève description de chaque dossier et fic
 - [**Flyer**](https://github.com/Goard-Rust/docs/blob/main/Documents_de_rendu/Flyer.pdf) : Flyer en francais sur notre projet
 - [**Pitch**](https://github.com/Goard-Rust/docs/blob/main/Documents_de_rendu/Pitch%20Rust%20Dashboard%20for%20OAR.pdf) : Les slides de notre pitch en anglais
 - [**Rapport final**](https://github.com/Goard-Rust/docs/blob/main/Documents_de_rendu/Rapport_final.md) : Résumé des résultats et conclusions du projet.
-- **Présentation final** : A venir
+- [**Présentation final**](https://github.com/Goard-Rust/docs/blob/main/Documents_de_rendu/Soutenance%20finale.pdf) : Présentation réalisé pour la soutenance final
 
 ## Documents Techniques
 
